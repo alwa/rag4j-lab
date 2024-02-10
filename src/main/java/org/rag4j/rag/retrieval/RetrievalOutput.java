@@ -58,12 +58,11 @@ public class RetrievalOutput {
 
         RetrievalOutput that = (RetrievalOutput) o;
 
-        return items.equals(that.items);
+        return Objects.equals(items, that.items);
     }
 
     @Override
     public int hashCode() {
-        return items.hashCode();
+        return items != null ? items.hashCode() : 0;
     }
-
 }

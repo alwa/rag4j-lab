@@ -1,4 +1,4 @@
-package org.rag4j.workshop;
+package org.rag4j.integrations.openai;
 
 import org.junit.jupiter.api.Test;
 import org.rag4j.integrations.openai.AlphabetEmbedder;

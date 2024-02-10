@@ -1,8 +1,7 @@
-package org.rag4j.workshop;
+package org.rag4j.indexing.splitters;
 
 import org.junit.jupiter.api.Test;
 import org.rag4j.indexing.InputDocument;
-import org.rag4j.indexing.splitters.MaxSizeSplitter;
 import org.rag4j.rag.model.Chunk;
 
 import java.util.List;
