@@ -9,7 +9,7 @@ import java.util.Map;
  * document is split into multiple chunks. Each chunk has a unique id as a sequence number and the total number of
  * chunks in the document is also provided.
  */
-@AllArgsConstructor(access = AccessLevel.PROTECTED)
+@AllArgsConstructor(access = AccessLevel.PUBLIC)
 @Getter
 @Builder
 @EqualsAndHashCode
